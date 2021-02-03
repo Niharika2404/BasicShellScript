@@ -1,0 +1,10 @@
+#!/bin/bash -x
+
+echo "create two directory"
+	mkdir $original
+		cp $original_file.sh $original
+	mkdir $updated
+		cp $updated_file.sh $updated
+
+diff $original $updated
+ `cp $original_file.sh | mkdir $original_backup`
